@@ -52,7 +52,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-component-GDF7426hgp)
-- Live Site URL: [Order Summary Layout](https://your-live-site-url.com)
+- Live Site URL: [Order Summary Layout](https://sdacleofe.github.io/order-summary-component-main/)
 
 ## My process
 
