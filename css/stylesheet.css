@@ -1,0 +1,158 @@
+:root {
+    /* Primary */
+    --pale-blue: hsl(225deg 100% 94%);
+    --bright-blue: hsl(245deg 75% 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(245deg 100% 98%);
+    --desaturated-blue: hsl(224deg 23% 55%);
+    --dark-blue: hsl(223deg 47% 23%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-color: var(--pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+main .card {
+    background-color: var(--very-pale-blue);
+    max-width: 450px;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 5px 15px 20px 1px rgba(56 41 224 / 10%);
+}
+
+main .card .card-image img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+
+main .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+main h1 {
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+main .card .card-content .card-text {
+    text-align: center;
+}
+
+main .card .card-content .card-plan {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(224 232 255 / 20%);
+    border-radius: 20px;
+}
+
+main .card .card-content .card-plan img {
+    width: 50px;
+    height: 50px;
+}
+
+main .card .card-content .card-plan div p {
+    margin: 0;
+}
+
+main .card .card-content .card-plan .price-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+main .card .card-content .card-plan .price-text h2 {
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+}
+
+main .card .card-content .card-plan .price-text span {
+    color: var(--dark-blue);
+}
+
+main .card .card-content .card-plan a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--bright-blue);
+}
+
+main .card .card-content .card-button a {
+    width: 100%;
+    text-align: center;
+    color: var(--desaturated-blue);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+main .card .card-content .card-plan a:hover {
+    text-decoration: none;
+    color: rgba(56 41 224 / 90%);
+}
+
+main .card .card-content .card-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .card .card-content .card-button button {
+    width: 100%;
+    padding: 15px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    box-shadow: 0 10px 10px 2px rgba(56 41 224 / 10%);
+    font-weight: 700;
+}
+
+main .card .card-content .card-button button:hover {
+    background-color: rgba(56 41 224 / 90%);
+    cursor: pointer;
+}
+
+
+main .card .card-content .card-button a:hover {
+    color: var(--dark-blue);
+}
+
+footer {
+    text-align: center;
+    font-size: .8em;
+}

@@ -1,0 +1,17 @@
+:root {
+    /* Primary */
+    --pale-blue: hsl(225deg 100% 94%);
+    --bright-blue: hsl(245deg 75% 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(245deg 100% 98%);
+    --desaturated-blue: hsl(224deg 23% 55%);
+    --dark-blue: hsl(223deg 47% 23%);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: none;
+        background-color: var(--pale-blue);
+    }
+}
