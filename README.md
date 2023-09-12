@@ -51,7 +51,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-component-GDF7426hgp)
 - Live Site URL: [Order Summary Layout](https://your-live-site-url.com)
 
 ## My process
